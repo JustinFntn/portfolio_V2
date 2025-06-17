@@ -43,7 +43,12 @@ export default function Education() {
         <div>
           <p className="text-lg font-medium">Bachelor's Degree in Technology</p>
           <p>Calais University Institute of Technology</p>
-          <p className="">Will graduate in 2025</p>
+          <p className="">Graduated in 2025</p>
+          <p className="mt-1 text-sm text-gray-500">
+            Specialization:
+            <br />
+            Application development - design, development, validation
+          </p>
         </div>
       </div>
 

@@ -21,8 +21,12 @@ const nextConfig: NextConfig = {
         hostname: 'external-content.duckduckgo.com',
         port: '',
       }
-    ]
-  }
+    ],
+    unoptimized: true,
+  },
+  distDir: "dist",
+  output: "export",
+
 };
 
 export default nextConfig;
