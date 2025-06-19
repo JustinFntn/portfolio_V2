@@ -7,7 +7,6 @@ import { motion } from 'framer-motion';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
-// import { useActiveSectionContext } from '@/context/active-section-context';
 import ParticleContainer from './particle-container';
 
 export default function Intro() {
@@ -63,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Justin.</span> I am a <span className="font-bold">student</span> at the <span className="font-bold">University Institute of Technology</span> in Calais, currently doing a work-study program at Atmo HDF where I work with Vue.js, MongoDB, and Python.
+        <span className="font-bold">Hello, I'm Justin.</span> I am a <span className="font-bold">student</span> at the <span className="font-bold">University Institute of Technology</span> in Calais, currently doing a work-study program at Atmo HDF where I work as a full-stack web developer.
       </motion.h1>
 
       <motion.div
@@ -79,11 +78,11 @@ export default function Intro() {
           href="https://github.com/JustinFntn"
           target="_blank"
         >
-          GitHub <FaGithub className="opacity-70" />
+          GitHub <FaGithub className="opacity-70 group-hover:opacity-100 transition-opacity duration-200" />
         </a>
 
         <a
-          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
           href="https://www.linkedin.com/in/justinfntn/"
           target="_blank"
         >

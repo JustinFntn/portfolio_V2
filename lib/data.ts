@@ -1,6 +1,6 @@
-import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import jeudames from '../public/jeudames(1).png';
+import Imper from '../public/Imper.png';
 
 export const links = [
   {
@@ -34,8 +34,8 @@ export const experiencesData = [
     title: 'Web Developer',
     location: 'Atmo HDF',
     description:
-      'Back-end development for various internal projects within the company, as well as in collaboration with local authorities in the Hauts-de-France region. Development of Node.js APIs with a MongoDB database.',
-    icon: React.createElement(CgWorkAlt),
+      'Full-stack web developer working with Node.js, Vue.js, TypeScript or Python. Involved in both feature development and maintenance tasks, including database operations (PostgreSQL, MongoDB, Redis) and system monitoring through Grafana. Contribute to building and maintaining web applications.',
+    icon: CgWorkAlt,
     date: 'Septembre 2024 - Present',
   },
   {
@@ -43,7 +43,7 @@ export const experiencesData = [
     location: 'Atmo HDF',
     description:
       'Carried out tasks focused on problem-solving, as well as administering various tools, developing Python, Batch or PowerShell scripts, and creating Docker images.',
-    icon: React.createElement(CgWorkAlt),
+    icon: CgWorkAlt,
     date: 'Octobre 2023 - Septembre 2024',
   },
   {
@@ -51,12 +51,28 @@ export const experiencesData = [
     location: 'Calais University Institute of Technology',
     description:
       'Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.',
-    icon: React.createElement(CgWorkAlt),
+    icon: CgWorkAlt,
     date: 'septembre 2022 - Juillet 2023',
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Imper',
+    description: 'A remplir et changer l\'image',
+    tags: ['TypeScript', 'Node.js', 'Vue.js'],
+    icons: ['logos:typescript-icon', 'logos:nodejs-icon', 'logos:vue'],
+    imageUrl: Imper,
+    githubLink: 'https://github.com/Atmo-HDF/Hermes',
+  },
+  {
+    title: 'Hermes',
+    description: 'A remplir et changer l\'image',
+    tags: ['TypeScript', 'Node.js', 'Bun.js', 'Vue.js'],
+    icons: ['logos:typescript-icon', 'logos:nodejs-icon', 'logos:vue'],
+    imageUrl: jeudames,
+    githubLink: 'https://github.com/Atmo-HDF/Hermes',
+  },
   {
     title: 'Pokedex Api',
     description: 'A remplir et changer l\'image',
@@ -92,15 +108,15 @@ export const skillsData = [
     icon: 'logos:nodejs-icon',
     url: 'https://nodejs.org/',
   },
+  // {
+  //   name: 'Bun.js',
+  //   icon: 'logos:bun-icon',
+  //   url: 'https://bun.sh/',
+  // },
   {
     name: 'Vue.js',
     icon: 'logos:vue',
     url: 'https://vuejs.org/',
-  },
-  {
-    name: 'Python',
-    icon: 'logos:python',
-    url: 'https://www.python.org/',
   },
   {
     name: 'HTML',
@@ -113,14 +129,14 @@ export const skillsData = [
     url: 'https://developer.mozilla.org/fr/docs/Web/CSS',
   },
   {
+    name: 'Python',
+    icon: 'logos:python',
+    url: 'https://www.python.org/',
+  },
+  {
     name: 'Git',
     icon: 'logos:git-icon',
     url: 'https://git-scm.com/',
-  },
-  {
-    name: 'MySQL',
-    icon: 'logos:mysql',
-    url: 'https://www.mysql.com/',
   },
   {
     name: 'MongoDB',
@@ -128,13 +144,28 @@ export const skillsData = [
     url: 'https://www.mongodb.com/',
   },
   {
+    name: 'PostgreSQL',
+    icon: 'logos:postgresql',
+    url: 'https://www.postgresql.org/',
+  },
+  {
+    name: 'Redis',
+    icon: 'logos:redis',
+    url: 'https://redis.io/',
+  },
+  {
+    name: 'MySQL',
+    icon: 'logos:mysql',
+    url: 'https://www.mysql.com/',
+  },
+  {
+    name:'Github Actions',
+    icon: 'logos:github-icon',
+    url: 'https://github.com/',
+  },
+  {
     name: 'Docker',
     icon: 'logos:docker-icon',
     url: 'https://www.docker.com/',
-  },
-  {
-    name: 'Jenkins',
-    icon: 'devicon:jenkins',
-    url: 'https://www.jenkins.io/',
   },
 ] as const;
