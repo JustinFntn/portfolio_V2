@@ -24,9 +24,9 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: true,
   },
-  distDir: "dist",
   output: "export",
-
+  basePath: "/portfolio_V2",
+  assetPrefix: "/portfolio_V2/",
 };
 
 export default nextConfig;
