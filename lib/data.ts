@@ -1,6 +1,7 @@
 import { CgWorkAlt } from 'react-icons/cg';
 import jeudames from '../public/jeudames(1).png';
 import Imper from '../public/Imper.png';
+import Hermes from '../public/Hermes.png';
 
 export const links = [
   {
@@ -59,18 +60,18 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Imper',
-    description: 'A remplir et changer l\'image',
-    tags: ['TypeScript', 'Node.js', 'Vue.js'],
-    icons: ['logos:typescript-icon', 'logos:nodejs-icon', 'logos:vue'],
+    description: 'Observability and management platform of the computer park. Aims to present various metrics of regarding our application, servers, as well as user management.',
+    tags: ['TypeScript', 'Bun.js','Express', 'Vue.js','Vite','Vuetify'],
+    icons: ['logos:typescript-icon', 'logos:bun', 'logos:vue','logos:vitejs','logos:vuetifyjs'],
     imageUrl: Imper,
     githubLink: 'https://github.com/Atmo-HDF/Hermes',
   },
   {
     title: 'Hermes',
-    description: 'A remplir et changer l\'image',
-    tags: ['TypeScript', 'Node.js', 'Bun.js', 'Vue.js'],
-    icons: ['logos:typescript-icon', 'logos:nodejs-icon', 'logos:vue'],
-    imageUrl: jeudames,
+    description: 'Platform with authentication for reporting and managing pollution spills as well as generating PDF, sending emails and SMS to the concerned authorities.',
+    tags: ['TypeScript', 'Bun.js', 'Vue.js','Vuetify', 'Pinia'],
+    icons: ['logos:typescript-icon', 'logos:bun', 'logos:vue', 'logos:vuetifyjs', 'logos:pinia'],
+    imageUrl: Hermes,
     githubLink: 'https://github.com/Atmo-HDF/Hermes',
   },
   {
@@ -108,15 +109,25 @@ export const skillsData = [
     icon: 'logos:nodejs-icon',
     url: 'https://nodejs.org/',
   },
-  // {
-  //   name: 'Bun.js',
-  //   icon: 'logos:bun-icon',
-  //   url: 'https://bun.sh/',
-  // },
+  {
+    name: 'Bun.js',
+    icon: 'logos:bun',
+    url: 'https://bun.sh/',
+  },
   {
     name: 'Vue.js',
     icon: 'logos:vue',
     url: 'https://vuejs.org/',
+  },
+  {
+    name: 'Pinia',
+    icon: 'logos:pinia',
+    url: 'https://pinia.vuejs.org/',
+  },
+  {
+    name: 'Vite',
+    icon: 'logos:vitejs',
+    url: 'https://vitejs.dev/',
   },
   {
     name: 'HTML',

@@ -35,7 +35,7 @@ export default function Skills() {
       className="mb-28 max-w-[58rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My Skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center text-lg text-gray-800 gap-2">
         {skillsData.map((skill, index) => (
           <motion.li
             className="flex flex-col items-center px-4 py-3 dark:text-white/80 cursor-pointer text-gray-600 hover:text-gray-950 dark:hover:text-white transition-colors"
@@ -57,8 +57,8 @@ export default function Skills() {
               }
             }}
           >
-            <Icon icon={skill.icon} className="text-5xl md:text-7xl" />
-            <span className="mt-2">{skill.name}</span>
+            <Icon icon={skill.icon} className="text-5xl md:text-7xl w-10 h-10 md:w-16 md:h-16" />
+            <span className="mt-2 text-sm md:text-base">{skill.name}</span>
           </motion.li>
         ))}
       </ul>
